@@ -2,7 +2,7 @@
 $host = getenv('MYSQLHOST') ?: 'localhost';
 $user = getenv('MYSQLUSER') ?: 'root';
 $pass = getenv('MYSQLPASSWORD') ?: '';
-$db   = getenv('MYSQLDATABASE') ?: 'db_mahasiswa'; 
+$db = getenv('MYSQLDATABASE') ?: 'db_mahasiswa'; 
 
 $conn = mysqli_connect($host, $user, $pass, $db);
 
